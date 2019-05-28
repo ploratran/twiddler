@@ -1,0 +1,77 @@
+#container{
+  width: 100%;
+}
+#tweet-feeds{
+  width : 50%;
+  margin: 20px auto;
+}
+#logo{
+  font-size: 48px;
+  font-family: 'Georgia', sans-serif;
+  font-weight: bold;
+  text-shadow: 1px 2px 2px #bbbaba;
+  color: #00aced;
+   padding-bottom: 25px;
+   text-align: center;
+}
+#tweet-btn{
+  background: #4fb8ff;
+  -webkit-border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 790px;
+  height: 40px;
+}
+#tweet-btn:hover{
+  background: #14a0e5;
+}
+#tweet-btn:hover{
+  cursor: pointer;
+}
+#tweet-number{
+  margin: 0px;
+  height: 30px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 2px 2px #bbbaba;
+  font-family: 'Gerogia', sans-serif;
+}
+#inner-tweet-container, #inner-tweet-container-personal{
+  -moz-box-shadow: inset 0px 0px 3px rgba(15, 15, 15, 0.14);
+	-webkit-box-shadow: inset 0px 0px 3px rgba(15, 15, 15, 0.14);
+	box-shadow: inset 0px 0px 3px rgba(15, 15, 15, 0.14);
+	padding: 20px;
+	font-family: 'Georgia', sans-serif;
+}
+#inner-tweet-container{
+  width: 750px;
+}
+#inner-tweet-container-personal{
+  display: none;
+}
+.timeago{
+  padding: 5px;
+}
+.tweet_user, #at{
+  color: #4EBAFF;
+}
+/* .tweet_user:hover{
+  background: #14a0e5;
+} */
+.tweet_user:hover{
+  cursor:pointer;
+}
+
+.tweet_user:hover, #at:hover{
+	cursor: pointer;
+}
+
+#time {
+	text-align: right;
+	color: #c6e3ff;
+	display: inline-block;
+	float: right;
+}
